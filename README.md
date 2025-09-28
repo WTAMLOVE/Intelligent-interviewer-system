@@ -1,2 +1,17 @@
-# Intelligent-interviewer-system
-使用Github Copilot生成的代码，自己用来练习Vibe Coding的产物。
+# 智能面试官 (示例项目)
+
+后端 (Flask):
+
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+export FLASK_APP=manage.py
+flask run
+
+前端 (Vite + Vue3):
+
+cd frontend
+npm install
+npm run dev

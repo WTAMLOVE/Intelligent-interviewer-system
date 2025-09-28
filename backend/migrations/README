@@ -1,0 +1,12 @@
+Single-database configuration for Flask.
+
+If you add or change models (for example we added `role` to `User`), generate a migration:
+
+```bash
+export FLASK_APP=manage.py
+source venv/bin/activate
+flask db migrate -m "add user role"
+flask db upgrade
+```
+
+If this is the first time, run `flask db init` before `migrate`.
