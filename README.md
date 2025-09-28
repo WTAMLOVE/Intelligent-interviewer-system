@@ -1,4 +1,5 @@
 # 智能面试官 (示例项目)
+学习如何使用`Github Copilot`进行`Vibe Coding`
 
 后端 (Flask):
 
